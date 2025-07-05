@@ -8,7 +8,79 @@
     <author>
       <name>Yrris</name>
     </author>
-    <updated>2025-07-05T16:57:44.394Z</updated>
+    <updated>2025-05-24T19:53:14.000Z</updated>
     <category term="关键词1" />
     <category term="关键词2" />
+    <entry>
+        <id>http://yoursite.com/note/TypeScript/TypeScript01/</id>
+        <title>第01章 TypeScript介紹</title>
+        <link rel="alternate" href="http://yoursite.com/note/TypeScript/TypeScript01/"/>
+        <content type="html">&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;以下為個人筆記&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#介紹&#34;&gt;#&lt;/a&gt; 介紹&lt;/h1&gt;
+&lt;p&gt;TypeScript 是 JavaScript 的超集，由 Microsoft 開發的開源程式語言。它提供靜態型別定義與檢查功能，能幫助開發者在撰寫程式碼時提早發現錯誤，提升程式碼的可讀性與整體專案的穩定性。&lt;/p&gt;
+&lt;h1 id=&#34;特性&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#特性&#34;&gt;#&lt;/a&gt; 特性&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;靜態類型檢查：
+&lt;ul&gt;
+&lt;li&gt;TypeScript 允許開發者在編譯階段進行型別檢查，能夠提早發現潛在錯誤，降低除錯成本。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;完整支援 ES6+ 語法：
+&lt;ul&gt;
+&lt;li&gt;TypeScript 支援最新的 ECMAScript 標準語法，例如 async/await、解構賦值、箭頭函式等。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;型別推論（Type Inference）：
+&lt;ul&gt;
+&lt;li&gt;即使未明確指定型別，TypeScript 也能根據程式內容自動推斷變數的型別。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;介面（Interfaces）與型別別名（Type Aliases）：
+&lt;ul&gt;
+&lt;li&gt;提供明確的資料結構定義，使大型專案更容易維護與擴充。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;類別與模組支援：
+&lt;ul&gt;
+&lt;li&gt;TypeScript 強化了 JavaScript 的 OOP 能力，支援類別繼承、模組化撰寫、封裝等特性。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;良好的編輯器整合：
+&lt;ul&gt;
+&lt;li&gt;如 VS Code 能提供 IntelliSense、即時錯誤提示、自動補全等功能，大幅提升開發效率。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;相容 JavaScript：
+&lt;ul&gt;
+&lt;li&gt;TypeScript 是 JavaScript 的超集，代表任何合法的 JavaScript 程式碼在 TypeScript 中都是合法的。保留 JavaScript 靈活性的同時，增加了靜態型別的安全性與可維護性。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;優點&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#優點&#34;&gt;#&lt;/a&gt; 優點&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;能在開發階段就發現大多數型別錯誤，減少 runtime bug。&lt;/li&gt;
+&lt;li&gt;提高程式碼可讀性與可維護性。&lt;/li&gt;
+&lt;li&gt;與 JavaScript 相容，可以從現有 JavaScript 專案開始，漸進地轉換成 TypeScript，無需一次重構。&lt;/li&gt;
+&lt;li&gt;強大的 IDE 支援，如 VS Code 可提供自動補全、型別提示、跳轉定義、錯誤提示等功能，顯著提升開發效率。&lt;/li&gt;
+&lt;li&gt;社群活躍、生態完整，使得在 TypeScript 中使用這些庫變得簡單。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;缺點&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#缺點&#34;&gt;#&lt;/a&gt; 缺點&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;學習曲線較高，對初學者不友善。&lt;/li&gt;
+&lt;li&gt;初期開發成本增加。&lt;/li&gt;
+&lt;li&gt;與第三方函式庫整合有時不順利。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;參考&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#參考&#34;&gt;#&lt;/a&gt; 參考&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pdGhlbHAuaXRob21lLmNvbS50dy9tL2FydGljbGVzLzEwMzAyNjI5&#34;&gt;https://ithelp.ithome.com.tw/m/articles/10302629&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90dy5hbHBoYWNhbXAuY28vYmxvZy90eXBlc2NyaXB0&#34;&gt;https://tw.alphacamp.co/blog/typescript&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pdGhlbHAuaXRob21lLmNvbS50dy9tL2FydGljbGVzLzEwMzE0NDM5&#34;&gt;https://ithelp.ithome.com.tw/m/articles/10314439&lt;/span&gt;&lt;/p&gt;
+</content>
+        <category term="程式語言" scheme="http://yoursite.com/categories/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+        <category term="TypeScript" scheme="http://yoursite.com/categories/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/TypeScript/" />
+        <category term="TypeScript" scheme="http://yoursite.com/tags/TypeScript/" />
+        <category term="筆記" scheme="http://yoursite.com/tags/%E7%AD%86%E8%A8%98/" />
+        <updated>2025-05-24T19:53:14.000Z</updated>
+    </entry>
 </feed>
