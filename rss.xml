@@ -18,8 +18,8 @@
             <guid isPermalink="true">http://yoursite.com/note/TypeScript/TypeScript02/</guid>
             <title>第02章 TypeScript型別三劍客 —— 型別註釋、型別推論、型別斷言</title>
             <link>http://yoursite.com/note/TypeScript/TypeScript02/</link>
-            <category term="程式語言" scheme="http://yoursite.com/categories/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-            <category term="TypeScript" scheme="http://yoursite.com/categories/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/TypeScript/" />
+            <category term="程式語言筆記" scheme="http://yoursite.com/categories/note/" />
+            <category term="TypeScript" scheme="http://yoursite.com/categories/note/TypeScript/" />
             <category term="TypeScript" scheme="http://yoursite.com/tags/TypeScript/" />
             <category term="筆記" scheme="http://yoursite.com/tags/%E7%AD%86%E8%A8%98/" />
             <pubDate>Mon, 07 Jul 2025 15:00:14 +0800</pubDate>
